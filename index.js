@@ -1,3 +1,4 @@
+//Algoritmo para solicitar datos a cliente y direccion para delivery
 let nombre = prompt("Por favor ingrese su nomnbre")
 let telefono = parseInt(prompt("Por favor ingrese su numero de telefono"))
 let direccion = prompt("Si vivis en San Nicolas, Balvanera o Recoleta. Podemos hacer el Delivery")
