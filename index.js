@@ -4,11 +4,14 @@ let direccion = prompt("Si vivis en San Nicolas, Balvanera o Recoleta. Podemos h
 
 let barrio = direccion
 if (barrio =="san nicolas"){
-    console.log(`Tenemos delivery a ${barrio}`)
+    console.log(`${nombre} Tenemos delivery a ${barrio}`)
 }
 else if (barrio =="balvanera"){
-    console.log(`Tenemos delivery a ${barrio}`)
+    console.log(`${nombre} Tenemos delivery a ${barrio}`)
 }
 else if (barrio =="recoleta"){
-    console.log(`Tenemos delivery a ${barrio}`)
+    console.log(`${nombre} Tenemos delivery a ${barrio}`)
+}
+else {
+    console.log("Ups! estas fuera de rango de Deivery")
 }
