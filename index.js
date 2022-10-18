@@ -1,8 +1,14 @@
-//Algoritmo para solicitar datos a cliente y direccion para delivery
+//Algoritmo para solicitar datos a cliente y barrio para delivery
 let bandera = true
 do {
     let nombre = prompt("Por favor ingrese su nomnbre")
     let telefono = parseInt(prompt("Por favor ingrese su numero de telefono"))
+    if (isNaN(telefono)){
+        console.log(`No es un numero de telefono valido`)
+        telefono = parseInt(prompt("Por favor ingrese su numero correcto de telefono"))
+    }else{
+        console.log(`Si es un numero de telefono valido`)
+    }
     let direccion = prompt("Si vivis en San Nicolas, Balvanera o Recoleta.  Podemos hacer el Delivery")
 
     let barrio = direccion
