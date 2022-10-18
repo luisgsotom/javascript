@@ -6,21 +6,21 @@ do {
     let direccion = prompt("Si vivis en San Nicolas, Balvanera o Recoleta.  Podemos hacer el Delivery")
 
     let barrio = direccion
-    if (barrio.toLowerCase() =="san nicolas"){
+    if (barrio =="san nicolas"){
         console.log(`Hola ${nombre} tu numero es ${telefono} y tenemos  delivery a ${barrio}`)
     }
-    else if (barrio.toLowerCase() =="balvanera"){
+    else if (barrio =="balvanera"){
         console.log(`Hola ${nombre} tu numero es ${telefono} y tenemos  delivery a ${barrio}`)
     }
-    else if (barrio.toLowerCase() =="recoleta"){
+    else if (barrio =="recoleta"){
         console.log(`Hola ${nombre} tu numero es ${telefono} y tenemos  delivery a ${barrio}`)
     }
     else {
         console.log(`Ups! Perdon ${nombre} estas fuera de rango de Delivery`)
     }
-    let preguntar = prompt (`Deseas volver a ingresar tus datos?
-    "NO" para salir`)
-    if (preguntar.toUpperCase() == "no"){
+    let pregunta = prompt (`Deseas volver a ingresar tus datos? 
+    "ESC" para salir`)
+    if (pregunta.toUpperCase() == "ESC"){
         bandera = false
         alert("Gracias por completar tus datos")
     }
