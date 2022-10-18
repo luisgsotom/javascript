@@ -14,5 +14,5 @@ else if (barrio =="recoleta"){
     console.log(`Hola ${nombre} tu numero es ${telefono} y tenemos delivery a ${barrio}`)
 }
 else {
-    console.log("Ups! estas fuera de rango de Deivery")
+    console.log(`Ups! Perdon ${nombre} estas fuera de rango de Delivery`)
 }
