@@ -27,13 +27,8 @@ const comida5 = new Comida(5,"Promo cuatro pastelitos y cuatro tequeños + salsa
 const comida6 = new Comida(6,"Promo quince tequeños + salsa", 1390)
 
 //Array de objetos
-//de manera directa
 const catalogoProductos = [comida1, comida2, comida3, comida4,comida5, comida6]
-console.log(catalogoProductos)
-//de manera con metodo push
-const carrito = []
-carrito.push(comida1, comida2)
-console.log(carrito)
+//console.log(catalogoProductos)
 
 //Función para agregar platos: 
 function nuevoPlato(array){
@@ -60,7 +55,7 @@ function mostrarCatalogoFOREACH(array){
 }
 //Function para aplicar FIND
 function buscarPorTitulo(array){
-    let platoBuscado = prompt("Ingrese el titulo que desea buscar")
+    let platoBuscado = prompt("Ingresá la comida que deseas buscar")
     let platoEncontrado = array.find(
         (plato)=> plato.plato.toLowerCase() == platoBuscado.toLowerCase()
         )
