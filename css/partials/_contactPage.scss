@@ -1,0 +1,48 @@
+.row {
+    display: flex;
+    width: 100%;
+    .servirles {
+        height: auto;
+        max-width: 400px;
+        margin-right: 1em;
+        h3 {
+            font-family: 'Alfa Slab One', cursive;
+            font-size: 28px;
+            color: #ff8c00;
+            }
+        p {
+            font-size: 16px;
+        }
+    }
+    form {
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    background-color: $bannerFontColor;
+    padding: 20px 40px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+    border-radius: 15px;
+        label {
+            margin: 10px;
+            font-size: 16px;
+            input {
+                border: solid 1px #303030;
+                border-radius: 10px;
+                height: 30px;
+                }
+            }
+        textarea {
+            height: 60px;
+            width: auto;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+        .btnGenerico {
+            border: none;
+            padding: 10px 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }   
+}

@@ -1,0 +1,27 @@
+.bg-propio {
+    background: $backgoundColorHeader;
+    padding-top: map-get($estilos, paddingUno);
+    padding-bottom: map-get($estilos, paddingUno);
+}
+
+.navbar-brand {
+    padding-top: map-get($estilos, paddingUno);
+    padding-bottom: map-get($estilos, paddingUno);
+    transition: all 0.3s;
+    &:hover {
+        transform: scale(1.2);
+    }
+}
+
+
+.nav-item a {
+    text-decoration: none;
+    font-family: $alfaSlab;
+    font-size: 18px;
+    color: $primaryColor;
+    margin: 10px;
+    &:hover {
+        color: #f9f9f9;
+        transition: all 1.0s;
+    }
+}

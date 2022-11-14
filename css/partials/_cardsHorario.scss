@@ -1,0 +1,47 @@
+.tarjeta {
+    border-radius: 10px;
+    width: 20rem;
+    height: 400px;
+    background-color:#ffffff;
+    margin: 20px;
+    box-shadow: -1px 0px 23px -6px rgba(0,0,0,0.75);
+-webkit-box-shadow: -1px 0px 23px -6px rgba(0,0,0,0.75);
+-moz-box-shadow: -1px 0px 23px -6px rgba(0,0,0,0.75);
+    h5 {
+        font-family: 'Alfa Slab One', cursive;
+        color: #202930;
+        font-size: 22px;
+        text-align: center;
+        margin-top: 50px;
+        background-color:#f9f9f9;
+        padding: 10px 20px;
+        p {
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 700;
+            font-size: 18px;
+        }
+    }
+    .titulo-tarjeta {
+        font-family: 'Alfa Slab One', cursive;
+        font-size: 22px;
+        text-align: center;
+        margin-top: 20px; 
+        background-color: #ff8c00;
+        padding: 10px 20px;
+        }
+    .titulo-cerrado {
+        font-family: 'Alfa Slab One', cursive;
+        font-size: 22px;
+        color: #ffffff;
+        text-align: center;
+        margin-top: 20px; 
+        background-color: #202930;
+        padding: 10px 20px;
+        }
+    .cerrado {
+        font-family: 'Alfa Slab One', cursive;
+        color: #202930;
+        font-size: 30px;
+        margin-top: 40%;
+    }
+}

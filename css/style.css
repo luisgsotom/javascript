@@ -1,0 +1,319 @@
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Open+Sans:wght@300;400;600;800&display=swap");
+.btnGenerico {
+  background-color: #202930;
+  color: #ff8c00;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 800;
+  text-align: center;
+  text-decoration: none;
+}
+.btnGenerico:hover {
+  background-color: #ff8c00;
+  color: #202930;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 800;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.5s;
+}
+
+h1 {
+  color: #202930;
+  font-family: "Alfa Slab One", cursive;
+  text-align: center;
+  margin-top: 30px;
+}
+
+h2 {
+  font-family: "Alfa Slab One", cursive;
+  font-size: 36px;
+  color: #202930;
+  text-align: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #fbfbfb;
+  font-family: "Open Sans", sans-seri;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.bg-propio {
+  background: linear-gradient(115deg, rgba(255, 101, 5, 0.9080007003) 0%, rgb(255, 171, 0) 100%);
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.navbar-brand {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  transition: all 0.3s;
+}
+.navbar-brand:hover {
+  transform: scale(1.2);
+}
+
+.nav-item a {
+  text-decoration: none;
+  font-family: "Alfa Slab One", cursive;
+  font-size: 18px;
+  color: #202930;
+  margin: 10px;
+}
+.nav-item a:hover {
+  color: #f9f9f9;
+  transition: all 1s;
+}
+
+.bannerPrincipal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: rgba(0, 0, 0, 0.7) url(../img/img-section-1.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: darken;
+  height: 70vh;
+}
+.bannerPrincipal .tituloPrincipal {
+  color: #fbfbfb;
+  font-family: "Alfa Slab One", cursive;
+  font-size: 2.5em;
+  letter-spacing: 1px;
+}
+.bannerPrincipal p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #fbfbfb;
+  padding-bottom: 10px;
+}
+
+.card {
+  border: none;
+  padding: 10px;
+  box-shadow: -1px 0px 23px -6px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: -1px 0px 23px -6px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -1px 0px 23px -6px rgba(0, 0, 0, 0.75);
+}
+.card .card-body h3 {
+  font-family: "Alfa Slab One", cursive;
+  font-size: 28px;
+  color: #202930;
+}
+
+.fabricacion {
+  background-color: #ff8c00;
+}
+
+.fabricacion .artesanal {
+  padding-left: 10px;
+}
+
+.fabricacion .artesanal h2 {
+  text-align: left;
+}
+
+/*# sourceMappingURL=section-fab.css.map */
+.btnGenerico {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  flex-direction: column;
+  margin-bottom: 0px;
+}
+
+.fondoReceta {
+  background-color: #ffd000;
+  padding: 30px 0;
+}
+.fondoReceta h3 {
+  font-family: "Alfa Slab One", cursive;
+  font-size: 28px;
+  color: #202930;
+}
+
+footer {
+  background: linear-gradient(115deg, rgba(255, 101, 5, 0.9080007003) 0%, rgb(255, 171, 0) 100%);
+  height: 100px;
+  width: 100%;
+  padding: 10px 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+footer p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  color: #202930;
+  text-align: left;
+}
+footer .socialMedia {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer .socialMedia img {
+  height: 40px;
+  width: 40px;
+}
+
+.btnGenerico {
+  background-color: #202930;
+  color: #ff8c00;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 800;
+  text-align: center;
+  text-decoration: none;
+}
+.btnGenerico:hover {
+  background-color: #ff8c00;
+  color: #202930;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 800;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.5s;
+}
+
+/* producto galeria  */
+.grid-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1em;
+  margin: 2em;
+}
+
+/*  GALERIA  */
+#galeria {
+  width: 100%;
+  height: auto;
+}
+#galeria .col-lg-4 {
+  margin: 0 !important;
+  padding: 10px;
+}
+#galeria .col-lg-4 img {
+  width: 100%;
+  height: auto;
+}
+#galeria .col-lg-4 img:hover {
+  filter: blur(2px);
+  cursor: pointer;
+  transition: all 0.5s ease;
+  -webkit-filter: grayscale(1);
+}
+
+.row {
+  display: flex;
+  width: 100%;
+}
+.row .servirles {
+  height: auto;
+  max-width: 400px;
+  margin-right: 1em;
+}
+.row .servirles h3 {
+  font-family: "Alfa Slab One", cursive;
+  font-size: 28px;
+  color: #ff8c00;
+}
+.row .servirles p {
+  font-size: 16px;
+}
+.row form {
+  display: flex;
+  flex-direction: column;
+  width: 450px;
+  background-color: #fbfbfb;
+  padding: 20px 40px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+  border-radius: 15px;
+}
+.row form label {
+  margin: 10px;
+  font-size: 16px;
+}
+.row form label input {
+  border: solid 1px #303030;
+  border-radius: 10px;
+  height: 30px;
+}
+.row form textarea {
+  height: 60px;
+  width: auto;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.row form .btnGenerico {
+  border: none;
+  padding: 10px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tarjeta {
+  border-radius: 10px;
+  width: 20rem;
+  height: 400px;
+  background-color: #ffffff;
+  margin: 20px;
+  box-shadow: -1px 0px 23px -6px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: -1px 0px 23px -6px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -1px 0px 23px -6px rgba(0, 0, 0, 0.75);
+}
+.tarjeta h5 {
+  font-family: "Alfa Slab One", cursive;
+  color: #202930;
+  font-size: 22px;
+  text-align: center;
+  margin-top: 50px;
+  background-color: #f9f9f9;
+  padding: 10px 20px;
+}
+.tarjeta h5 p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+}
+.tarjeta .titulo-tarjeta {
+  font-family: "Alfa Slab One", cursive;
+  font-size: 22px;
+  text-align: center;
+  margin-top: 20px;
+  background-color: #ff8c00;
+  padding: 10px 20px;
+}
+.tarjeta .titulo-cerrado {
+  font-family: "Alfa Slab One", cursive;
+  font-size: 22px;
+  color: #ffffff;
+  text-align: center;
+  margin-top: 20px;
+  background-color: #202930;
+  padding: 10px 20px;
+}
+.tarjeta .cerrado {
+  font-family: "Alfa Slab One", cursive;
+  color: #202930;
+  font-size: 30px;
+  margin-top: 40%;
+}/*# sourceMappingURL=style.css.map */

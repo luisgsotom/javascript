@@ -1,0 +1,43 @@
+%botonPrimario {
+    background-color: #202930;
+    color: #ff8c00;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    text-align: center;
+    text-decoration: none;
+    &:hover {
+        background-color: #ff8c00;
+        color: #202930;
+        padding: 10px 20px;
+        border-radius: 10px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 800;
+        text-align: center;
+        text-decoration: none;
+        transition: all 0.5s;
+    }
+}
+
+%botonSecundario {
+    background-color: #202930;
+    color: #ff8c00;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    text-align: center;
+    text-decoration: none;
+    &:hover {
+        background-color: #ff8c00;
+        color: #202930;
+        padding: 10px 20px;
+        border-radius: 10px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 800;
+        text-align: center;
+        text-decoration: none;
+        transition: all 0.5s;
+    }
+}

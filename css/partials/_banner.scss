@@ -1,0 +1,24 @@
+.bannerPrincipal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: rgba(0, 0, 0, 0.7) url(../img/img-section-1.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: darken;
+    height: 70vh;
+    .tituloPrincipal {
+        color: $bannerFontColor;
+        font-family: $alfaSlab;
+        font-size: 2.5em;
+        letter-spacing: 1px;
+    }
+    p {
+        font-family: $openSans;
+        font-size: 18px;
+        font-weight: 400;
+        color: $bannerFontColor;
+        padding-bottom: map-get($estilos, paddingUno);
+    }
+}

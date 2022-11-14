@@ -1,0 +1,28 @@
+/* producto galeria  */
+
+.grid-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1em;
+    margin: 2em;
+}
+/*  GALERIA  */
+
+#galeria {
+    width: 100%;
+    height: auto;
+    .col-lg-4 {
+        margin: 0 !important;
+        padding: 10px;
+        img {
+            width: 100%;
+            height: auto;
+            &:hover {
+            filter: blur(2px);
+            cursor: pointer;
+            transition: all 0.5s ease;
+            -webkit-filter: grayscale(1);
+            }
+        }
+    }
+}
