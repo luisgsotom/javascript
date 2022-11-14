@@ -1,10 +1,11 @@
 
 //esta es la clase constructora
 class Comida {
-    constructor(id, plato, precio){
+    constructor(id, plato, precio, imagen){
         this.id = id,
         this.plato = plato,
-        this.precio = precio
+        this.precio = precio,
+        this.imagen = imagen
 
     }
     //métodos
@@ -14,17 +15,17 @@ class Comida {
 }
 //Instaciacion de objetos
 
-const comida1 = new Comida(1,"Docena de tequeños", 1300)
+const comida1 = new Comida(1,"Combo Medio & Medio", 1600,"pasteles-tequenos.jpg" )
 
-const comida2 = new Comida(2,"Media docena de pastelitos", 1100)
+const comida2 = new Comida(2,"Combo Cuatro por Cuatro", 1000, "4x4.jpg")
 
-const comida3 = new Comida(3,"Docena de pastelitos", 2100)
+const comida3 = new Comida(3,"Combo Loquilochera", 800, "LOQUILONCHERA.jpg")
 
-const comida4 = new Comida(4,"Promo seis pastelitos y seis tequeños + salsa", 1600)
+const comida4 = new Comida(4,"Loquipack Reloaded", 600, "otrocombo.jpg")
 
-const comida5 = new Comida(5,"Promo cuatro pastelitos y cuatro tequeños + salsa", 2200)
+const comida5 = new Comida(5,"Los Tequeloquillos", 1400, "mini-tequenos.jpg")
 
-const comida6 = new Comida(6,"Promo quince tequeños + salsa", 1390)
+const comida6 = new Comida(6,"Tequeños Congelados", 1000, "tequenos-congelados.jpg")
 
 //Array de objetos
 const catalogoProductos = [comida1, comida2, comida3, comida4,comida5, comida6]
@@ -109,7 +110,7 @@ function ordenar(array){
     }
 }
 //Function prompt de consultas que hace el usuario
-function preguntarOpcion(){
+/*function preguntarOpcion(){
     let opcion = parseInt(prompt(`Ingresá el número de la opción que desea realizar:
                         1 - Ver menú de comidas
                         2 - Agregar un plato a nuestro menu
@@ -146,4 +147,22 @@ function menu(opcionSeleccionada){
 let salir = false
 while(salir!=true){
     preguntarOpcion()
+}
+*/
+//Capturo Productos
+
+let productos = document.getElementById("productos")
+for(let combo of catalogoProductos){
+    let nuevoCombo = document.createElement("div")
+    nuevoCombo.innerHTML = `<div id="${combo.id}" class="col-md-4 col-12 mb-5">
+    <div class="card mx-auto" style="width: 20rem;">
+        <img src="../img/${combo.imagen}" class="card-img-top" alt="${combo.plato}">
+        <div class="card-body">
+            <h3 class="card-body text-center">${combo.plato}</h3>
+            <h5 class="card-body text-center">Precio $: ${combo.precio}</h5>
+            <a href="https://api.whatsapp.com/send?phone=5491169637009" class="btnGenerico">Agregar al carrito</a>
+        </div>
+    </div>
+</div>`
+productos.appendChild(nuevoCombo)
 }

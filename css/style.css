@@ -106,10 +106,17 @@ body {
   -webkit-box-shadow: -1px 0px 23px -6px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: -1px 0px 23px -6px rgba(0, 0, 0, 0.75);
 }
-.card .card-body h3 {
+.card .card-body h3, .card h5 {
   font-family: "Alfa Slab One", cursive;
   font-size: 28px;
   color: #202930;
+}
+
+.estilosProdcutos {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  align-items: center;
 }
 
 .fabricacion {

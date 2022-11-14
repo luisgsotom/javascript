@@ -5,9 +5,16 @@
 -webkit-box-shadow: -1px 0px 23px -6px rgba(0,0,0,0.75);
 -moz-box-shadow: -1px 0px 23px -6px rgba(0,0,0,0.75);
 
-.card-body h3 {
+.card-body h3, h5 {
     font-family: $alfaSlab;
     font-size: 28px;
     color: $primaryColor;
     }
+}
+
+.estilosProdcutos{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
 }
